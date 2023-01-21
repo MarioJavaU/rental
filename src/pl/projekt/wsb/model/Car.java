@@ -19,7 +19,7 @@ public class Car extends Vehicle{
     @Override
     public String toCsv() {
         return TYPE + ";" + getBrand() + ";" +
-                getColor() + ";" + getPrice() + ";" +
+                getColor() + ";" + getPrice() +
                 ";" + getRegNumber() + ";" + gearbox;
     }
 
